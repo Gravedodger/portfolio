@@ -3,6 +3,7 @@ import React, { Component } from "react";
 export default class AddressImg extends Component {
   render() {
     const theme = this.props.theme;
+
     return (
       <svg
         id="aaafdec0-95c8-49a3-a8f8-64216c6da511"
@@ -32,7 +33,7 @@ export default class AddressImg extends Component {
           transform="translate(-93.27537 -144.85931)"
           fill="none"
           stroke={theme.text}
-          stroke-miterlimit="10"
+          strokeMiterlimit="10"
         />
         <rect
           x="303.45419"
@@ -86,7 +87,7 @@ export default class AddressImg extends Component {
           y2="608.49156"
           fill="none"
           stroke={theme.text}
-          stroke-miterlimit="10"
+          strokeMiterlimit="10"
         />
         <path
           d="M93.27537,630.2124c0,58.96027,36.98858,106.67017,82.69935,106.67017"

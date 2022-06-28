@@ -1,15 +1,11 @@
-/* Change this file to get your personal Porfolio */
-
-// Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: true,
 };
 
-//SEO Related settings
+//SEO
 const seo = {
   title: "Sviatoslav Malyshevskyi Portfolio",
-  description: "A passionate individual who always thrives to excel at every " +
-    "undertaking and to make an impact.",
+  description: "A passionate individual who always thrives to make an impact.",
   og: {
     title: "Sviatoslav Malyshevskyi Portfolio",
     type: "website",
@@ -24,61 +20,68 @@ const greeting = {
   nickname: "Gravedodger",
   subTitle: "A passionate individual who always thrives to excel at every " +
     "undertaking and to make an impact.",
-  resumeLink:
-    // "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  "",
-  portfolio_repository: "https://github.com",
+  resumeLink: "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+  portfolio_repository: "https://github.com/Gravedodger/portfolio.git",
   githubProfile: "https://github.com/Gravedodger",
 };
 
 const socialMediaLinks = [
-  // github: "https://github.com/",
-  // linkedin: "https://www.linkedin.com/in/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/",
-  // facebook: "https://www.facebook.com/",
-  // twitter: "https://twitter.com/",
-  // instagram: "https://www.instagram.com/"
+  {
+    github: "https://github.com/Gravedodger",
+    linkedin: "https://www.linkedin.com/in/sviatoslav-malyshevskyi-a892b869",
+    email: "s.malyshevskyi.08@aberdeen.ac.uk",
+    gmail: "s.malyshevskyi.08@gmail.com",
+    gitlab: "https://gitlab.com/Gravedodger",
+    facebook: "https://www.facebook.com/sviatoslav.malyshevskyi",
+    // twitter: "https://twitter.com/",
+    instagram: "https://www.instagram.com/sviatoslav.malyshevskyi"
+  },
 
   {
     name: "Github",
-    link: "https://github.com/",
+    link: "https://github.com/Gravedodger",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/",
+    link: "https://www.linkedin.com/in/sviatoslav-malyshevskyi-a892b869",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
+    link: "https://www.youtube.com/",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
+    name: "Email",
+    link: "mailto:s.malyshevskyi.08@aberdeen.ac.uk",
+    fontAwesomeIcon: "fa-solid fa-envelope", // Reference https://fontawesome.com/icons/envelope?s=solid
+    backgroundColor: "#007bff",
+  },
+  {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:s.malyshevskyi.08@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
+  // {
+  //   name: "Twitter",
+  //   link: "https://twitter.com/",
+  //   fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
+  //   backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+  // },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/sviatoslav.malyshevskyi",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
